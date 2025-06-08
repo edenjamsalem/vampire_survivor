@@ -32,8 +32,11 @@ pip install -r requirements.txt
 pip install pygame-ce
 pip install pytmx
 ```
+### Must be run from inside the ./code folder!
+```bash
+python3 main.py
+```
 
-##
 
 
 
