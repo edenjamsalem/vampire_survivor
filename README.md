@@ -1,42 +1,48 @@
-# Vampire Survivor Game
+# 🧛‍♂️ Vampire Survivor Game
 
-This is a simple 2D shooter game, where the player has to avoid touching the enemies and kill as many of them as possible before dying!
+A fast-paced 2D survival shooter where you must avoid relentless waves of enemies and eliminate as many as you can before the inevitable end. Your goal? Stay alive for as long as possible!
 
-See how long you can survive!
+## 🚀 Game Overview
 
-## Key features
+Inspired by the Vampire Survivor game from this [pygame tutorial](https://www.youtube.com/watch?v=8OMghdHP-zs&t=26863s). This project takes the core mechanics further with added features, polish, and gameplay enhancements.
 
-The base game logic was built following this [pygame course](https://www.youtube.com/watch?v=8OMghdHP-zs&t=26863s). 
-However many new features have been added:
+## 🎮 Features
 
-- The player has 3 lives instead of 1
-- There is a simple homescreen & gameover screen
-- A txt file is used to save the high score between games
-- Powerups spawn around the map, some temporarily upgrade the player's weapon, others increase his speed, slow down nearby enemies, plant mines and so on... 
-- A Boss spawns every minute with increased health, shooting projectiles towards the player. Any direct contact with the boss is instant death 💀💀💀
+- 🧍 **3 lives** — giving you more chances to fight through hordes.
+- 🏠 **Home screen and game over screen** — with clean transitions between game states.
+- 🏆 **High score tracking** — scores are saved to a `.txt` file between sessions.
+- ⚡ **Power-ups**:
+  - Temporary weapon upgrades
+  - Speed boosts
+  - Enemy slow-down effects
+  - Land mines
+  - and many more for you to find out...
+- 👹 **Boss fights** — every minute, a powerful boss appears:
+  - Fires projectiles at the player
+  - Instant-death on contact 💀
 
-## Requirements / Dependencies
+## 🛠️ Requirements
 
-Make sure you have Python 3.7+ installed.
+- Python **3.7+** must be installed and available in your environment.
 
-Install the following dependencies before running the program:
+### 📦 Dependencies
 
-### Either install via `requirements.txt`
+Install all required packages using the provided `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Or install manually:
-```bash
+Or install manually:
+```
 pip install pygame-ce
 pip install pytmx
 ```
-### Must be run from inside the ./code folder!
+
+**Important:** The game must be run from inside the ./code directory
 ```bash
+cd code
 python3 main.py
 ```
-
-
 
 
